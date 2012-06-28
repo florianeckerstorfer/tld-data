@@ -20,13 +20,16 @@ $csv = new parseCSV($csvFilename);
 $csv->encoding('UTF-16', 'UTF-8');
 foreach ($csv->data as $tld) {
 	$data[] = array(
-		'tld'			=> $tld['tld'],
-		'description'	=> $tld['description']
+		'tld'			=> isset($tld['tld']) ? $tld['tld'] : null,
+		'description'	=> isset($tld['description']) ? $tld['description'] : null,
+		'whoisServer'	=> isset($tld['whoisServer']) ? $tld['whoisServer'] : null
 	);
 }
 
 $jsonFilename = str_replace('.csv', '.json', $csvFilename);
 
 file_put_contents($jsonFilename, json_encode($data));
+
+echo sprintf("Saved WHOIS data to \"%s\".\n", $jsonFilename);
 
 exit(0);

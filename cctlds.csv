@@ -1,4 +1,4 @@
-"tld","description"
+"tld","description","whoisServer"
 "ac","Ascension Island"
 "ad","Andorra"
 "ae","United Arab Emirates"
@@ -12,7 +12,7 @@
 "aq","Antarctica"
 "ar","Argentina"
 "as","American Samoa"
-"at","Austria"
+"at","Austria","at.whois-servers.net"
 "au","Australia"
 "aw","Aruba"
 "ax","Åland"
@@ -56,7 +56,7 @@
 "cy","Cyprus
 "cz","Czech Republic
 "dd","East Germany"
-"de","Germany"
+"de","Germany","de.whois-servers.net"
 "dj","Djibouti"
 "dk","Denmark"
 "dm","Dominica"
