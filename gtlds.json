@@ -2,47 +2,47 @@
 [{
     "tld": "aero",
     "description": "air-transport industry",
-    "whoisServer": null
+    "whoisServer": "aero.whois-servers.net"
 }, {
     "tld": "asia",
     "description": "Asia-Pacific region",
-    "whoisServer": null
+    "whoisServer": "asia.whois-servers.net"
 }, {
     "tld": "biz",
     "description": "business",
-    "whoisServer": null
+    "whoisServer": "biz.whois-servers.net"
 }, {
     "tld": "cat",
     "description": "Catalan",
-    "whoisServer": null
+    "whoisServer": "cat.whois-servers.net"
 }, {
     "tld": "com",
     "description": "commercial",
-    "whoisServer": "whois-servers.net"
+    "whoisServer": "com.whois-servers.net"
 }, {
     "tld": "coop",
     "description": "cooperatives",
-    "whoisServer": null
+    "whoisServer": "coop.whois-servers.net"
 }, {
     "tld": "info",
     "description": "information",
-    "whoisServer": null
+    "whoisServer": "info.whois-servers.net"
 }, {
     "tld": "int",
     "description": "international organizations",
-    "whoisServer": null
+    "whoisServer": "int.whois-servers.net"
 }, {
     "tld": "jobs",
     "description": "companies",
-    "whoisServer": null
+    "whoisServer": "jobs.whois-servers.net"
 }, {
     "tld": "mobi",
     "description": "mobile devices",
-    "whoisServer": null
+    "whoisServer": "mobi.whois-servers.net"
 }, {
     "tld": "museum",
     "description": "museums",
-    "whoisServer": null
+    "whoisServer": "museum.whois-servers.net"
 }, {
     "tld": "name",
     "description": "individuals, by name",
@@ -58,27 +58,27 @@
 }, {
     "tld": "pro",
     "description": "professions",
-    "whoisServer": null
+    "whoisServer": "pro.whois-servers.net"
 }, {
     "tld": "tel",
     "description": "Internet communication services",
-    "whoisServer": null
+    "whoisServer": "tel.whois-servers.net"
 }, {
     "tld": "travel",
     "description": "travel and tourism industry related sites",
-    "whoisServer": null
+    "whoisServer": "travel.whois-servers.net"
 }, {
     "tld": "xxx",
     "description": "adult entertainment",
-    "whoisServer": null
+    "whoisServer": "xxx.whois-servers.net"
 }, {
     "tld": "edu",
     "description": "educational",
-    "whoisServer": null
+    "whoisServer": "edu.whois-servers.net"
 }, {
     "tld": "gov",
     "description": "governmental",
-    "whoisServer": null
+    "whoisServer": "gov.whois-servers.net"
 }, {
     "tld": "mil",
     "description": "US military",
