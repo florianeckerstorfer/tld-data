@@ -1,0 +1,23 @@
+{
+	"name": "Tld",
+	"description": "A top level domain",
+	"type": "array",
+
+	"properties": {
+		"tld": {
+			"type": "string",
+			"description": "Top-level domain",
+			"required": true
+			},
+		"description": {
+			"type": "string",
+			"description": "Description of Top-level domain",
+			"required": true
+		},
+		"whoisServer": {
+			"type": "string",
+			"description": "WHOIS server for TLD",
+			"required": false
+		}
+	}
+}
