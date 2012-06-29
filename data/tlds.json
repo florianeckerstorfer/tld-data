@@ -1,4 +1,145 @@
 [{
+    "tld": "aero",
+    "description": "air-transport industry",
+    "whoisServer": "aero.whois-servers.net",
+    "patterns": {
+        "notRegistered": "NOT FOUND"
+    }
+}, {
+    "tld": "asia",
+    "description": "Asia-Pacific region",
+    "whoisServer": "asia.whois-servers.net",
+    "patterns": {
+        "notRegistered": "NOT FOUND"
+    }
+}, {
+    "tld": "biz",
+    "description": "business",
+    "whoisServer": "biz.whois-servers.net",
+    "patterns": {
+        "notRegistered": "Not found:"
+    }
+}, {
+    "tld": "cat",
+    "description": "Catalan",
+    "whoisServer": "cat.whois-servers.net",
+    "patterns": {
+        "notRegistered": "NOT FOUND."
+    }
+}, {
+    "tld": "com",
+    "description": "commercial",
+    "whoisServer": "com.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No match for /"
+    }
+}, {
+    "tld": "coop",
+    "description": "cooperatives",
+    "whoisServer": "coop.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No domain records were found to match/"
+    }
+}, {
+    "tld": "info",
+    "description": "information",
+    "whoisServer": "info.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "int",
+    "description": "international organizations",
+    "whoisServer": "int.whois-servers.net"
+}, {
+    "tld": "jobs",
+    "description": "companies",
+    "whoisServer": "jobs.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No match for/"
+    }
+}, {
+    "tld": "mobi",
+    "description": "mobile devices",
+    "whoisServer": "mobi.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "museum",
+    "description": "museums",
+    "whoisServer": "museum.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND./"
+    }
+}, {
+    "tld": "name",
+    "description": "individuals, by name",
+    "whoisServer": "name.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No match./"
+    }
+}, {
+    "tld": "net",
+    "description": "network",
+    "whoisServer": "net.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No match for /"
+    }
+}, {
+    "tld": "org",
+    "description": "organization",
+    "whoisServer": "org.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "pro",
+    "description": "professions",
+    "whoisServer": "pro.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "tel",
+    "description": "Internet communication services",
+    "whoisServer": "tel.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Not found:/"
+    }
+}, {
+    "tld": "travel",
+    "description": "travel and tourism industry related sites",
+    "whoisServer": "travel.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Not found:/"
+    }
+}, {
+    "tld": "xxx",
+    "description": "adult entertainment",
+    "whoisServer": "xxx.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
+}, {
+    "tld": "edu",
+    "description": "educational",
+    "whoisServer": "edu.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No Match/"
+    }
+}, {
+    "tld": "gov",
+    "description": "governmental",
+    "whoisServer": "gov.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No match for/"
+    }
+}, {
+    "tld": "mil",
+    "description": "US military",
+    "whoisServer": null
+}, {
     "tld": "ac",
     "description": "Ascension Island",
     "whoisServer": "ac.whois-servers.net"
