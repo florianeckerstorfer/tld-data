@@ -194,7 +194,10 @@
 }, {
     "tld": "at",
     "description": "Austria",
-    "whoisServer": "at.whois-servers.net"
+    "whoisServer": "at.whois-servers.net",
+    "patterns": {
+        "quotaExceeded": "/% Quota exceeded/"
+    }
 }, {
     "tld": "au",
     "description": "Australia",
