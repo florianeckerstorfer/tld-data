@@ -549,7 +549,7 @@
 }, {
     "tld": "ly",
     "description": "Libya",
-    "whoisServer": null
+    "whoisServer": "whois.nic.ly"
 }, {
     "tld": "ma",
     "description": "Morocco",

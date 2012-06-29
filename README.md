@@ -1,17 +1,7 @@
-Whois Data
-==========
+TLD Data
+========
 
-Scripts written and data collected by [Florian Eckerstorfer](http://webadventures.at).
-
-About
------
-
-The data collected in this repository will be used for version 2 of [Ninjawhois](http://ninjawhois.com).
-
-Dependencies
-------------
-
-- [parseCSV](http://code.google.com/p/parsecsv-for-php/)
+Data collected by [Florian Eckerstorfer](http://webadventures.at).
 
 License
 -------
