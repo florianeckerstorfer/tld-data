@@ -2,9 +2,9 @@ require 'rubygems'
 require 'json'
 require 'jsonschema'
 
-schema     = File.open("schema.json", "rb"){|f| JSON.parse(f.read)}
-dataGTlds  = File.open("gtlds.json",  "rb"){|f| JSON.parse(f.read)}
-dataCcTlds = File.open("cctlds.json", "rb"){|f| JSON.parse(f.read)}
+schema     = File.open("schema.json",      "rb"){|f| JSON.parse(f.read)}
+dataGTlds  = File.open("data/gtlds.json",  "rb"){|f| JSON.parse(f.read)}
+dataCcTlds = File.open("data/cctlds.json", "rb"){|f| JSON.parse(f.read)}
 
 if JSON::Schema.validate(dataGTlds, schema)
 	puts "gtlds.json is valid.\n"
