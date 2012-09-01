@@ -24,7 +24,7 @@
     "description": "Catalan",
     "whoisServer": "cat.whois-servers.net",
     "patterns": {
-        "notRegistered": "/NOT FOUND\./"
+        "notRegistered": "/NOT FOUND\\./"
     }
 }, {
     "tld": "com",
@@ -70,14 +70,14 @@
     "description": "museums",
     "whoisServer": "museum.whois-servers.net",
     "patterns": {
-        "notRegistered": "/NOT FOUND\./"
+        "notRegistered": "/NOT FOUND\\./"
     }
 }, {
     "tld": "name",
     "description": "individuals, by name",
     "whoisServer": "name.whois-servers.net",
     "patterns": {
-        "notRegistered": "/No match\./"
+        "notRegistered": "/No match\\./"
     }
 }, {
     "tld": "net",
