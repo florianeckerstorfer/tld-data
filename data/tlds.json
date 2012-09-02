@@ -142,7 +142,10 @@
 }, {
     "tld": "ac",
     "description": "Ascension Island",
-    "whoisServer": "ac.whois-servers.net"
+    "whoisServer": "ac.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/ - Available/"
+    }
 }, {
     "tld": "ad",
     "description": "Andorra",
@@ -150,15 +153,24 @@
 }, {
     "tld": "ae",
     "description": "United Arab Emirates",
-    "whoisServer": "ae.whois-servers.net"
+    "whoisServer": "ae.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No Data Found/"
+    }
 }, {
     "tld": "af",
     "description": "Afghanistan",
-    "whoisServer": "af.whois-servers.net"
+    "whoisServer": "af.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Status: Not Registered/"
+    }
 }, {
     "tld": "ag",
     "description": "Antigua and Barbuda",
-    "whoisServer": "ag.whois-servers.net"
+    "whoisServer": "ag.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
 }, {
     "tld": "ai",
     "description": "Anguilla",
@@ -170,7 +182,10 @@
 }, {
     "tld": "am",
     "description": "Armenia",
-    "whoisServer": "am.whois-servers.net"
+    "whoisServer": "am.whois-servers.net",
+    "patterns": {
+        "notRegistered": "No match"
+    }
 }, {
     "tld": "an",
     "description": "Netherlands Antilles",
@@ -337,7 +352,10 @@
 }, {
     "tld": "co",
     "description": "Colombia",
-    "whoisServer": "co.whois-servers.net"
+    "whoisServer": "co.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Not found: /"
+    }
 }, {
     "tld": "cr",
     "description": "Costa Rica",
@@ -373,7 +391,10 @@
 }, {
     "tld": "de",
     "description": "Germany",
-    "whoisServer": "de.whois-servers.net"
+    "whoisServer": "de.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Status: free/"
+    }
 }, {
     "tld": "dj",
     "description": "Djibouti",
@@ -693,7 +714,10 @@
 }, {
     "tld": "ly",
     "description": "Libya",
-    "whoisServer": "whois.nic.ly"
+    "whoisServer": "whois.nic.ly",
+    "patterns": {
+        "notRegistered": "/Not found/"
+    }
 }, {
     "tld": "ma",
     "description": "Morocco",
