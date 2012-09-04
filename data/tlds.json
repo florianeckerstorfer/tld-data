@@ -352,7 +352,7 @@
     "description": "Switzerland",
     "whoisServer": "ch.whois-servers.net",
     "patterns": {
-        "notRegistered": "/We do not have an entry in our database matching your query\./"
+        "notRegistered": "/We do not have an entry in our database matching your query\\./"
     }
 }, {
     "tld": "ci",
@@ -367,7 +367,7 @@
     "description": "Chile",
     "whoisServer": "cl.whois-servers.net",
     "patterns": {
-        "noConnectoin": "/Unable to connect to the specified registry nic\.cl\./"
+        "noConnectoin": "/Unable to connect to the specified registry nic\\.cl\\./"
     }
 }, {
     "tld": "cm",
@@ -438,14 +438,14 @@
     "description": "Denmark",
     "whoisServer": "dk.whois-servers.net",
     "patterns": {
-        "notRegistered": "/No entries found for the selected source\./"
+        "notRegistered": "/No entries found for the selected source\\./"
     }
 }, {
     "tld": "dm",
     "description": "Dominica",
     "whoisServer": "dm.whois-servers.net",
     "patterns": {
-        "notRegistered": "/not found\.\.\./"
+        "notRegistered": "/not found\\.\\.\\./"
     }
 }, {
     "tld": "do",
@@ -464,7 +464,7 @@
     "description": "Estonia",
     "whoisServer": "ee.whois-servers.net",
     "patterns": {
-        "notRegistered": "/% No entries found\./"
+        "notRegistered": "/% No entries found\\./"
     }
 }, {
     "tld": "eg",
@@ -517,14 +517,14 @@
     "description": "Faroe Islands",
     "whoisServer": "fo.whois-servers.net",
     "patterns": {
-        "notRegistered": "/% No entries found in source RIPE\./"
+        "notRegistered": "/% No entries found in source RIPE\\./"
     }
 }, {
     "tld": "fr",
     "description": "France",
     "whoisServer": "fr.whois-servers.net",
     "patterns": {
-        "notRegistered": "/%% No entries found in the AFNIC Database\./"
+        "notRegistered": "/%% No entries found in the AFNIC Database\\./"
     }
 }, {
     "tld": "ga",
@@ -539,7 +539,7 @@
     "description": "Grenada",
     "whoisServer": "gd.whois-servers.net",
     "patterns": {
-        "notRegistered": "/not found\.\.\./"
+        "notRegistered": "/not found\\.\\.\\./"
     }
 }, {
     "tld": "ge",
@@ -593,7 +593,7 @@
     "description": "South Georga and the South Sandwhich Islands",
     "whoisServer": "gs.whois-servers.net",
     "patterns": {
-        "notRegistered": "/not found\.\.\./"
+        "notRegistered": "/not found\\.\\.\\./"
     }
 }, {
     "tld": "gt",
@@ -619,7 +619,7 @@
     "description": "Hong Kong",
     "whoisServer": "hk.whois-servers.net",
     "patterns": {
-        "notRegistered": "/The domain has not been registered\./"
+        "notRegistered": "/The domain has not been registered\\./"
     }
 }, {
     "tld": "hm",
@@ -670,7 +670,7 @@
     "description": "Isle of Man",
     "whoisServer": "im.whois-servers.net",
     "patterns": {
-        "notRegistered": "/was not found\./"
+        "notRegistered": "/was not found\\./"
     }
 }, {
     "tld": "in",
@@ -742,7 +742,7 @@
     "description": "Kyrgyzstan",
     "whoisServer": "kg.whois-servers.net",
     "patterns": {
-        "notRegistered": "/Data not found\. This domain is available for registration\./"
+        "notRegistered": "/Data not found\\. This domain is available for registration\\./"
     }
 }, {
     "tld": "kh",
