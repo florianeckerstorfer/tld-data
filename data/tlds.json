@@ -767,7 +767,10 @@
 }, {
     "tld": "kr",
     "description": "Republic of Korea",
-    "whoisServer": "kr.whois-servers.net"
+    "whoisServer": "whois.krnic.net",
+    "patterns": {
+        "notRegistered": "/Above domain name is not registered to KRNIC\\./"
+    }
 }, {
     "tld": "kw",
     "description": "Kuwait",
@@ -795,7 +798,10 @@
 }, {
     "tld": "li",
     "description": "Liechtenstein",
-    "whoisServer": "li.whois-servers.net"
+    "whoisServer": "li.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/We do not have an entry in our database matching your query\\./"
+    }
 }, {
     "tld": "lk",
     "description": "Sri Lanka",
@@ -811,15 +817,24 @@
 }, {
     "tld": "lt",
     "description": "Lithuania",
-    "whoisServer": "lt.whois-servers.net"
+    "whoisServer": "lt.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Status:   available/"
+    }
 }, {
     "tld": "lu",
     "description": "Luxembourg",
-    "whoisServer": "lu.whois-servers.net"
+    "whoisServer": "lu.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/% No such domain/"
+    }
 }, {
     "tld": "lv",
     "description": "Latvia",
-    "whoisServer": "lv.whois-servers.net"
+    "whoisServer": "lv.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/% No entries found in source RIPE\\./"
+    }
 }, {
     "tld": "ly",
     "description": "Libya",
@@ -838,7 +853,10 @@
 }, {
     "tld": "md",
     "description": "Moldova",
-    "whoisServer": "md.whois-servers.net"
+    "whoisServer": "md.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No match for/"
+    }
 }, {
     "tld": "me",
     "description": "Montenegro",
@@ -849,7 +867,10 @@
 }, {
     "tld": "mg",
     "description": "Madagascar",
-    "whoisServer": "mg.whois-servers.net"
+    "whoisServer": "mg.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Status: Not Registered/"
+    }
 }, {
     "tld": "mh",
     "description": "Marshall Isalnds",
@@ -889,7 +910,10 @@
 }, {
     "tld": "ms",
     "description": "Montserrat",
-    "whoisServer": "ms.whois-servers.net"
+    "whoisServer": "ms.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/not found\\.\\.\\./"
+    }
 }, {
     "tld": "mt",
     "description": "Malta",
@@ -897,7 +921,10 @@
 }, {
     "tld": "mu",
     "description": "Mauritius",
-    "whoisServer": "mu.whois-servers.net"
+    "whoisServer": "mu.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Status: Not Registered/"
+    }
 }, {
     "tld": "mv",
     "description": "Maldives",
@@ -909,7 +936,10 @@
 }, {
     "tld": "mx",
     "description": "Mexico",
-    "whoisServer": "mx.whois-servers.net"
+    "whoisServer": "mx.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No_Se_Encontro_El_Objeto\/Object_Not_Found"
+    }
 }, {
     "tld": "my",
     "description": "Malaysia",
@@ -921,7 +951,10 @@
 }, {
     "tld": "na",
     "description": "Namibia",
-    "whoisServer": "na.whois-servers.net"
+    "whoisServer": "na.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Status: Not Registered/"
+    }
 }, {
     "tld": "nc",
     "description": "New Caledonia",
@@ -933,7 +966,10 @@
 }, {
     "tld": "nf",
     "description": "Norfold Island",
-    "whoisServer": "nf.whois-servers.net"
+    "whoisServer": "nf.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Status: Not Registered"
+    }
 }, {
     "tld": "ng",
     "description": "Nigeria",
@@ -945,7 +981,10 @@
 }, {
     "tld": "nl",
     "description": "Netherlands",
-    "whoisServer": "nl.whois-servers.net"
+    "whoisServer": "nl.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/ is free/"
+    }
 }, {
     "tld": "no",
     "description": "Norway",
@@ -964,7 +1003,10 @@
 }, {
     "tld": "nu",
     "description": "Niue",
-    "whoisServer": "nu.whois-servers.net"
+    "whoisServer": "nu.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Results:\n-/"
+    }
 }, {
     "tld": "nz",
     "description": "New Zealand",
@@ -980,7 +1022,10 @@
 }, {
     "tld": "pe",
     "description": "Peru",
-    "whoisServer": "pe.whois-servers.net"
+    "whoisServer": "pe.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Status: Not Registered/"
+    }
 }, {
     "tld": "pf",
     "description": "French Polynesia",
@@ -1000,11 +1045,17 @@
 }, {
     "tld": "pl",
     "description": "Poland",
-    "whoisServer": "pl.whois-servers.net"
+    "whoisServer": "pl.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No information available about domain name/"
+    }
 }, {
     "tld": "pm",
     "description": "Saint-Pierre and Miquelon",
-    "whoisServer": "pm.whois-servers.net"
+    "whoisServer": "pm.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/%% No entries found in the AFNIC Database\\./"
+    }
 }, {
     "tld": "pn",
     "description": "Pitcairn Islands",
@@ -1020,7 +1071,10 @@
 }, {
     "tld": "pt",
     "description": "Portugal",
-    "whoisServer": "pt.whois-servers.net"
+    "whoisServer": "pt.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/ no match/"
+    }
 }, {
     "tld": "pw",
     "description": "Palau",
@@ -1036,19 +1090,31 @@
 }, {
     "tld": "re",
     "description": "R\u00e9union",
-    "whoisServer": "re.whois-servers.net"
+    "whoisServer": "re.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/%% No entries found in the AFNIC Database\\."
+    }
 }, {
     "tld": "ro",
     "description": "Romania",
-    "whoisServer": "ro.whois-servers.net"
+    "whoisServer": "ro.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/% No entries found for the selected source\\(s\\)\\./"
+    }
 }, {
     "tld": "rs",
     "description": "Serbia",
-    "whoisServer": "rs.whois-servers.net"
+    "whoisServer": "rs.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Domain is not registered/"
+    }
 }, {
     "tld": "ru",
     "description": "Russia",
-    "whoisServer": "ru.whois-servers.net"
+    "whoisServer": "ru.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No entries found for the selected source\\(s\\)\\./"
+    }
 }, {
     "tld": "rw",
     "description": "Rwanda",
@@ -1064,7 +1130,10 @@
 }, {
     "tld": "sc",
     "description": "Seychelles",
-    "whoisServer": "sc.whois-servers.net"
+    "whoisServer": "sc.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
 }, {
     "tld": "sd",
     "description": "Sudan",
@@ -1072,19 +1141,31 @@
 }, {
     "tld": "se",
     "description": "Sweden",
-    "whoisServer": "se.whois-servers.net"
+    "whoisServer": "se.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/ not found\\./"
+    }
 }, {
     "tld": "sg",
     "description": "Singapore",
-    "whoisServer": "sg.whois-servers.net"
+    "whoisServer": "sg.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Domain Not Found/"
+    }
 }, {
     "tld": "sh",
     "description": "Saint Helena",
-    "whoisServer": "sh.whois-servers.net"
+    "whoisServer": "sh.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/ - Available/"
+    }
 }, {
     "tld": "si",
     "description": "Slovenia",
-    "whoisServer": "si.whois-servers.net"
+    "whoisServer": "si.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/% No entries found for the selected source\\(s\\)\\./"
+    }
 }, {
     "tld": "sj",
     "description": "Svalbard and Jan Mayen Islands",
@@ -1092,7 +1173,10 @@
 }, {
     "tld": "sk",
     "description": "Slovakia",
-    "whoisServer": "sk.whois-servers.net"
+    "whoisServer": "sk.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/%ERROR:101: no entries found/"
+    }
 }, {
     "tld": "sl",
     "description": "Sierra Leone",
@@ -1120,11 +1204,17 @@
 }, {
     "tld": "st",
     "description": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
-    "whoisServer": "st.whois-servers.net"
+    "whoisServer": "st.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No entries found for domain/"
+    }
 }, {
     "tld": "su",
     "description": "Soviet Union",
-    "whoisServer": "su.whois-servers.net"
+    "whoisServer": "su.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No entries found for the selected source\\(s\\)\\./"
+    }
 }, {
     "tld": "sv",
     "description": "El Salvador",
@@ -1148,7 +1238,10 @@
 }, {
     "tld": "tf",
     "description": "French Southern and Antarctic Lands",
-    "whoisServer": "tf.whois-servers.net"
+    "whoisServer": "tf.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/%% No entries found in the AFNIC Database\\./"
+    }
 }, {
     "tld": "tg",
     "description": "Togo",
@@ -1164,15 +1257,24 @@
 }, {
     "tld": "tk",
     "description": "Tokelau",
-    "whoisServer": "tk.whois-servers.net"
+    "whoisServer": "tk.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Invalid query or domain name not known in Dot TK Domain Registry/"
+    }
 }, {
     "tld": "tl",
     "description": "East Timor",
-    "whoisServer": "tl.whois-servers.net"
+    "whoisServer": "tl.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Status: Not Registered/"
+    }
 }, {
     "tld": "tm",
     "description": "Turkmenistan",
-    "whoisServer": "tm.whois-servers.net"
+    "whoisServer": "tm.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/ - Available/"
+    }
 }, {
     "tld": "tn",
     "description": "Tunisia",
@@ -1180,7 +1282,10 @@
 }, {
     "tld": "to",
     "description": "Tonga",
-    "whoisServer": "to.whois-servers.net"
+    "whoisServer": "to.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No match for/"
+    }
 }, {
     "tld": "tp",
     "description": "East Timor",
@@ -1196,11 +1301,17 @@
 }, {
     "tld": "tv",
     "description": "Tuvalu",
-    "whoisServer": "tv.whois-servers.net"
+    "whoisServer": "tv.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No match for/"
+    }
 }, {
     "tld": "tw",
     "description": "Taiwan",
-    "whoisServer": "tw.whois-servers.net"
+    "whoisServer": "tw.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No Found/"
+    }
 }, {
     "tld": "tz",
     "description": "Tanzania",
@@ -1220,7 +1331,10 @@
 }, {
     "tld": "us",
     "description": "United States of America",
-    "whoisServer": "us.whois-servers.net"
+    "whoisServer": "us.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/Not found: /"
+    }
 }, {
     "tld": "uy",
     "description": "Uruguay",
@@ -1236,7 +1350,10 @@
 }, {
     "tld": "vc",
     "description": "Saint Vincent and the Grenadines",
-    "whoisServer": "vc.whois-servers.net"
+    "whoisServer": "vc.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/NOT FOUND/"
+    }
 }, {
     "tld": "ve",
     "description": "Venezuele",
@@ -1264,7 +1381,10 @@
 }, {
     "tld": "ws",
     "description": "Samoa",
-    "whoisServer": "ws.whois-servers.net"
+    "whoisServer": "ws.whois-servers.net",
+    "patterns": {
+        "notRegistered": "/No match for/"
+    }
 }, {
     "tld": "ye",
     "description": "Yemen",
