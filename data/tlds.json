@@ -291,7 +291,7 @@
     "description": "Bolovia",
     "whoisServer": "bo.whois-servers.net",
     "patterns": {
-        "notRegistered": "/Results:\n\n\nwhois.nic.bo solo acepta consultas con dominios .bo/"
+        "notRegistered": "/Results:\n\n\nwhois\\.nic\\.bo solo acepta consultas con dominios \\.bo/"
     }
 }, {
     "tld": "br",
@@ -715,7 +715,7 @@
     "tld": "je",
     "description": "Jersey",
     "whoisServer": "je.whois-servers.net",
-    "patterns" {
+    "patterns": {
         "notRegistered": "/Status: Not Registered/"
     }
 }, {
